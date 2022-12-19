@@ -1,0 +1,64 @@
+
+
+.styled_table{
+   border-collapse: collapse;
+   margin: auto;
+   font-size: 0.9rem;
+   font-family: sans-serif;
+   max-width: 800px;
+   box-shadow: 0 0 20px rgba(113, 15, 15, 0.3);
+
+}
+.styled_table thead tr{
+    background-color: teal;
+    color: aliceblue;
+    text-align: left;
+}
+.styled_table th,.styled_table td{
+    padding: 12px 20px;
+}
+.styled_table tbody tr {
+    border-bottom: 1px solid whitesmoke;
+}
+
+.styled_table tbody tr:nth-of-type(even){
+    background-color: antiquewhite;
+}
+.styled_table tbody tr:last-of-type{
+    border-bottom: 2px solid teal;
+
+}
+.btn{
+    border: none;
+    color: beige;
+    padding: 5px 8px;
+    text-align: center;
+    text-decoration: none;
+    display: flex;
+    flex-direction: row;
+    border-radius: 8px;
+    font-size: 16px;
+    font-weight: bold;
+    margin: 4px 2px;
+    cursor: pointer;
+    
+    
+}
+.btn-edit{
+    color: magenta;
+
+
+}
+.btn-view{
+   color: blue;
+}
+.btn-delete{
+    color: red;
+}
+.btn-add{
+    color: green;
+}
+.btn-contact{
+    background-color: red;
+    margin-bottom: 10px;
+}
